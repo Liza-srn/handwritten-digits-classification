@@ -22,9 +22,7 @@ An RBM is an energy-based probabilistic model consisting of two layers:
 - **Hidden Layer (\(h\)):** Captures the latent features.
 
 The energy function of an RBM is defined as:
-\[
 E(v, h) = -v^T W h - a^T v - b^T h
-\]
 where:
 - \(W\): Weight matrix between visible and hidden layers.
 - \(a, b\): Biases of visible and hidden layers.
